@@ -37857,11 +37857,11 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 231px;
+  min-height: 236px;
 }
 
 .u-header .u-menu-1 {
-  margin: 98px auto 0;
+  margin: 101px auto 0;
 }
 
 .u-header .u-nav-1 {
@@ -37918,7 +37918,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-image-1 {
   width: 185px;
   height: 185px;
-  margin: -114px auto 0 1px;
+  margin: -112px auto 0 1px;
 }
 
 .u-header .u-logo-image-1 {
@@ -37932,6 +37932,9 @@ a.u-link.u-text-hover-grey-90:hover {
   min-height: 16px;
   width: 149px;
   min-width: 109px;
+  transition-duration: 0.5s;
+  box-shadow: 2px 0 0 0 rgba(0,0,0,0);
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   margin: -102px 0 60px auto;
 }
 
@@ -37980,13 +37983,26 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 767px) {
+  .u-header .u-sheet-1 {
+    min-height: 260px;
+  }
+
   .u-header .u-menu-1 {
-    margin-top: -175px;
+    margin-top: -2px;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: 38px;
+    margin-left: auto;
   }
 
   .u-header .u-social-icons-2 {
-    margin-top: -55px;
-    margin-right: 38px;
+    width: 143px;
+    min-width: 109px;
+    height: 24px;
+    margin-top: 13px;
+    margin-right: 0;
+    margin-bottom: 0;
   }
 }
 @media (max-width: 575px) {
@@ -37995,7 +38011,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-menu-1 {
-    margin-top: 0;
+    width: auto;
     margin-right: 0;
   }
 
@@ -38012,15 +38028,9 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-top: 65px;
   }
 
-  .u-header .u-image-1 {
-    margin-top: 6px;
-    margin-left: auto;
-  }
-
   .u-header .u-social-icons-2 {
-    margin-top: 11px;
-    margin-right: 0;
-    margin-bottom: 29px;
+    width: 124px;
+    height: 20px;
   }
 
   .u-header .u-icon-8 {
@@ -38064,6 +38074,14 @@ a.u-link.u-text-hover-grey-90:hover {
     transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
 }
 .u-container-layout.hover .u-header .u-social-icons-1 {
+    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
+} .u-header .u-social-icons-2, .u-header .u-social-icons-2:before, .u-header .u-social-icons-2 > .u-container-layout:before {
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position
+}
+.u-header .u-container-layout:hover .u-social-icons-2 {
+    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
+}
+.u-container-layout.hover .u-header .u-social-icons-2 {
     transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
 } 
 
