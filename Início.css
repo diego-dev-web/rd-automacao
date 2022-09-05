@@ -1160,9 +1160,9 @@
   }
 
   .u-section-6 .u-shape-1 {
-    width: 390px;
+    width: 340px;
     height: 892px;
-    margin-left: auto;
+    margin-left: calc(((100% - 340px) / 2) + -25px);
   }
 
   .u-section-6 .u-list-1 {
@@ -1184,10 +1184,18 @@
     margin-left: auto;
   }
 
+  .u-section-6 .u-btn-1 {
+    margin-right: 5px;
+  }
+
   .u-section-6 .u-image-2 {
     height: 302px;
     width: 330px;
     margin-left: auto;
+  }
+
+  .u-section-6 .u-btn-2 {
+    margin-right: 5px;
   }
 
   .u-section-6 .u-list-2 {
