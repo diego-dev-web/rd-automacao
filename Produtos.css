@@ -641,13 +641,18 @@
 
 @media (max-width: 1199px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 545px;
+    min-height: 629px;
+  }
+
+  .u-section-3 .u-group-1 {
+    margin-top: 58px;
+    margin-bottom: 58px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 417px;
+    min-height: 482px;
   }
 }
 
