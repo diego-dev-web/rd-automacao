@@ -702,7 +702,7 @@
   font-size: 0.875rem;
   letter-spacing: 1px;
   background-image: none;
-  border-style: none none solid;
+  border-style: solid;
   text-transform: uppercase;
   font-weight: 600;
   margin: 115px auto 0 0;
@@ -737,7 +737,7 @@
   font-size: 0.875rem;
   letter-spacing: 1px;
   background-image: none;
-  border-style: none none solid;
+  border-style: solid;
   text-transform: uppercase;
   font-weight: 600;
   margin: 115px auto 0 0;
@@ -1944,7 +1944,7 @@
 }
 
 .u-section-9 .u-btn-1 {
-  border-style: none none solid;
+  border-style: solid;
   padding: 0;
 }
 
@@ -2213,7 +2213,7 @@
 }
 
 .u-section-10 .u-btn-1 {
-  border-style: none none solid;
+  border-style: solid;
   padding: 0;
 }
 
@@ -2243,16 +2243,17 @@
 }
 
 .u-section-10 .u-layout-cell-2 {
-  min-height: 446px;
+  min-height: 488px;
 }
 
 .u-section-10 .u-container-layout-2 {
-  padding: 30px 20px;
+  padding: 28px 20px;
 }
 
 .u-section-10 .u-form-1 {
-  height: 347px;
-  margin: 0 auto 0 0;
+  height: 428px;
+  width: 530px;
+  margin: 0;
 }
 
 .u-section-10 .u-input-1 {
@@ -2307,17 +2308,12 @@
     width: 162px;
   }
 
-  .u-section-10 .u-icon-4 {
-    color: rgb(0, 230, 118) !important;
-  }
-
   .u-section-10 .u-layout-cell-2 {
-    min-height: 368px;
+    min-height: 402px;
   }
 
   .u-section-10 .u-form-1 {
-    margin-right: initial;
-    margin-left: initial;
+    width: 430px;
   }
 }
 
@@ -2355,7 +2351,7 @@
     height: 404px;
     margin-top: 30px;
     margin-right: 40px;
-    margin-left: 0;
+    width: 320px;
   }
 
   .u-section-10 .u-btn-2 {
